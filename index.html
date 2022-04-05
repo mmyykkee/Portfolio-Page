@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio Page</title>
+</head>
+<header>
+
+    <nav id="navbar">
+        <div class="tabs">
+            <!-- Active tab -->
+            <div class="tabs__tab--active">
+                <a href="#welcome-section">Home</a> 
+            </div>
+        
+            <!-- Inactive tab -->
+            <div class="tabs__tab--inactive">
+                <a href="#projects">Projects</a>
+            </div>
+
+            <!-- Inactive tab -->
+            <div class="tabs__tab--inactive">
+                <a href="#personal-information">Personal Information</a> 
+            </div>
+        </div>
+       
+    </nav>
+</header>
+<body>
+    <img src="http://isaadney.com/wp-content/uploads/2018/05/wdesk4.jpg" alt="" class="background-image">
+    <section id="welcome-section">
+        <img class="my-image" src="Images/nobc.png" alt="">
+       
+        <div class="wrapper">
+            <div class="static-txt"> Personal Portfolio Page</div>
+        </div>
+        <span>
+            <h2>Michael Mbugua Maina</h2>
+        </span>
+        <span>
+            <h3>Web3 Developer</h3>
+        </span> <br> <br>
+        <div class="progress-bar">
+        <h2>Language Proficiency Progress</h2>
+                <br>
+        <label for="progress">HTML 5:</label>
+        <progress id="html5" value="90" max="100">90%</progress>
+        <span></span>
+        <label for="progress">CSS:</label>
+        <progress id="CSS" value="60" max="100">60%</progress>
+        <span></span>
+        <label for="progress">JAVASCRIPT:</label>
+        <progress id="javascript" value="10" max="100">10%</progress>
+    </div>
+    </section>
+    <img src="Images/Projectsbc.jpg" alt="" class="background-image">
+    <section id="projects">
+        <div class="project-tile">
+            <a href="#projects"><h1>Projects</h1></a>
+           
+              </iframe>
+        </div>
+    </section>
+    <section id="personal-information">
+        <h1>Personal Information</h1>
+        
+        <a href="https://github.com/mmyykkee" target="_blank" id="profile-link"> Github Link</a>
+        <i class="fa-brands fa-twitter"></i>
+       
+    </section>
+</body>
+</html>
