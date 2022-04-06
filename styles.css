@@ -158,21 +158,21 @@ a{
     width: 100vw;
    }
 
-.static-txt::after{
+/* .static-txt::after{
     content: "";
     position: absolute;
     height: 100%;
     width: 100%;
-    left: 30%;
+    left: 20vh;
     background-color: #000;
     border-left: 2px solid #fff;
     animation: typing 4s steps(21) infinite;
-}
+} */
 
-@keyframes typing{
+/* @keyframes typing{
     100%{
-        left: 70%;
+        left: 80vh;
         margin: 0 -35px 0 35px;
         
     }
-}
+} */
